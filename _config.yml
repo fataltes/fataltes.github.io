@@ -52,14 +52,14 @@ shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
-start-delay: 200
-delete-delay: 5000
+start-delay: 100
+delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text: "I'm looking for an internship position for summer 2018."
   - text: "Back to C++ after years. Excited!"
   - text: "To begin, begin!"
 
-me-img: "/img/jetpacktocat.png"
+# me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -200,10 +200,12 @@ err-404-img: "/img/labtocat.png"
 
 pages_list:
   About: 'about'
-  Publication: 'publication-list'
+  Publications: 'publication-list'
 #  Project Highlights: 'project-highlights'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
+  Projects: 'latest-post'
+  CV: 'cv'
+#  Blog: 'latest-post'
+#  Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
