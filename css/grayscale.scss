@@ -67,7 +67,8 @@ div {
 }
 
 a {
-    color: $secondary-color;
+    /* color: $secondary-color;*/
+    color: MediumSeaGreen;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -76,6 +77,12 @@ a {
         text-decoration: none;
         color: darken($secondary-color,20%);
     }
+}
+
+ul li { 
+	list-style: none;
+	text-align: left;
+	padding: 10px 0px; 
 }
 
 .navbar-custom {

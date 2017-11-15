@@ -157,8 +157,8 @@ email: "falmodaresit@cs.stonybrook.edu"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "??????"
-author_blurb_image: "/img/author.png"
+#author_blurb: "??????"
+#author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -201,12 +201,10 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: 'about'
   Publications: 'publication-list'
-#  Project Highlights: 'project-highlights'
-  Projects: 'latest-post'
+  Projects: 'projects'
   CV: 'cv'
-#  Blog: 'latest-post'
-#  Timeline: 'timeline'
   Contact: 'contact'
+#  Timeline: 'timeline'
 
 # Exclusion list from the generated _site
 
