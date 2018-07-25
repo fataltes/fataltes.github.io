@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 100
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
-  - text: "I'm looking for an internship position for summer 2018."
+  - text: "I'm looking for an internship position for spring 2018."
   - text: "Back to C++ after years. Excited!"
   - text: "To begin, begin!"
 
