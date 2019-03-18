@@ -55,7 +55,6 @@ type-speed: 10
 start-delay: 100
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
-  # - text: "I'm looking for an internship position for spring 2019."
   - text: "Love fish? take a look at our tools, Rainbowfish, Pufferfish, and Mantis"
   - text: "To begin, begin!"
 
