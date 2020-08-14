@@ -57,7 +57,7 @@ delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text: "Love fish? take a look at our tools, Rainbowfish, Pufferfish, and Mantis"
   - text: "To begin, begin!"
-
+  - text: "End of PhD chapter of life. Looking for postdoc opportunities."
 # me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
@@ -146,7 +146,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "falmodaresit@cs.stonybrook.edu"
+email: "falmodar@cs.umd.edu"
 
 ################
 # Author Blurb #
