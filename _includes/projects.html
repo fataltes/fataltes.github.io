@@ -4,9 +4,16 @@
     <div class="col-md-10 col-md-offset-1" align="left">
 <ul>
 <li>
-  <a href="https://github.com/COMBINE-lab/pufferfish">Pufferfish</a>
+  <a href="https://github.com/splatlab/mantis/tree/mergeMSTs">Mantis</a>
   <small>
-: This tool provides an efficient data structure for indexing colored compacted de Bruijn graphs which can achieve a balance between time and space resources by making use of succinct data structures and minimum perfect hash function. Pufferfish provides the underlying data structure for mapping short sequencing reads to a huge population of references while keeping the mapping information for each reference individually. Submitted to Recomb 2018. Also, we are writing a very cool and efficient aligner on top of it that expect be  since it takes advantage of the uniqueness property of unitigs in the de Bruijn graph.
+: is a space and time efficient data structure to index and query large collections of raw sequencing read experiments. The index is based on colored de Bruijn graph representation and therefore supports graph-based operations such as graph traversal, and bubble calling useful for assembly and variation detection. In our recent work we have advanced the index to more than 30,000 raw read sequencing samples and enabled the nice feature of gradual growth by making the index incrementally updatable.
+  </small>
+</li>
+<li>
+  <a href="https://github.com/COMBINE-lab/pufferfish/tree/develop">Pufferfish+Puffaligner</a>
+  <small>
+: This tool provides an efficient data structure for indexing colored compacted de Bruijn graphs which can achieve a balance between time and space resources by making use of succinct data structures and minimum perfect hash function. Pufferfish provides the underlying data structure for mapping short sequencing reads to a huge population of references while keeping the mapping information for each reference individually. Submitted to Recomb 2018. 
+PuffAligner, our recent work, is a highly sensitive aligner on top of Pufferfish for aligning different types of short sequencing reads to a huge population of references, specifically good in the representation of high similarity in the reference sequences.
   </small>
 </li>
 <li>
