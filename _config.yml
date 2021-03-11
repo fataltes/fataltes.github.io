@@ -32,7 +32,7 @@ lang: "en"
 author: "Fatemeh Almodaresi"
 title: "Fatemeh Almodaresi"
 description: "My personal website. The cool theme I'm using is called Personal Jekyll theme."
-keywords: "fatemeh, almodaresi, stony brook university, computational biology, data analysis, data mining, data structures, genome, transcriptome, sequencing reads, research, phd, student"
+keywords: "fatemeh, almodaresi, stony brook university, computational biology, data analysis, data mining, data structures, genome, transcriptome, sequencing reads, research, phd, postdoc, postdoctoral fellow, oicr, university of maryland, maryland, college park, ontario institutes, cancer"
 favicon: "/img/dealwithitparrot.ico"
 
 ################
@@ -57,7 +57,6 @@ delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text: "Love fish? take a look at our tools, Rainbowfish, Pufferfish, and Mantis"
   - text: "To begin, begin!"
-  - text: "End of PhD chapter of life. Looking for postdoc opportunities."
 # me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
